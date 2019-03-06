@@ -8,7 +8,6 @@ class List extends Component {
     this.state = {
       // create an empty array of list
       list: []
-      
     }
   }
 

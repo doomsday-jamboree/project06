@@ -34,7 +34,7 @@ class App extends Component {
               <List />
             </div>
             <div>
-              <Form node='memo' label='add memo' />
+              <Form node='memo' label='add memo' userName={this.state.userName} />
             </div>
           </section>
         </main>
