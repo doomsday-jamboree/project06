@@ -8,16 +8,35 @@
     margin-bottom: 25px;
   }
 
-  .mapLeft p{
-     width: 87%;
-  }
   main .mapLeft {
     margin-right: 0;
-    margin-left: 6%;
   }
 
   .mapLeft img {
-    width: 88%;
+  }
+  .bunkerDescriptions {
+    margin: 3%;
+  }
+
+  .mapHeader {
+    margin: 3%;
+  }
+
+  .mapParent {
+    margin: 3%;
+  }
+
+  .mapRight .mapImage {
+    padding-left: 3%;
+    padding-right: 1%;
+    width: 100%;
+  }
+  .mapRight p {
+    padding-left: 3%;
+  }
+  .directions div,
+  .directions p {
+    padding: 0% 3%;
   }
 }
 
@@ -74,7 +93,7 @@
     font-size: 0.8rem;
   }
 
-  .forms p {
+  p {
     font-size: 0.8rem;
   }
 

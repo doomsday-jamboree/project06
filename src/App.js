@@ -99,7 +99,8 @@ class App extends Component {
                       <input type="radio" name="bunkerChoice" id="oiza" value="oiza" />
                       <label htmlFor="oiza"><span>Oiza's</span> Bunker</label>
                   
-                      <input type="radio" name="bunkerChoice" id="zoe" value="zoe" /> <label htmlFor="zoe"><span>Zoe's</span> Bunker</label>
+                      <input type="radio" name="bunkerChoice" id="zoe" value="zoe" /> 
+                      <label htmlFor="zoe"><span>Zoe's</span> Bunker</label>
                   </form>
 
                   <Bunker

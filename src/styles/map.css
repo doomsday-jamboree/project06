@@ -9,7 +9,7 @@
   line-height: 1.6;
 }
 .mapLeft img {
-  width: 94%;
+  width: 100%;
 }
 
 .mapLeft h2 {
@@ -29,7 +29,7 @@
 
 .mapRight .mapImage {
   padding-left: 6%;
-  width: 94%;
+  width: 97%;
 }
 
 .mapRight p {
@@ -37,9 +37,9 @@
 }
 
 .mapLeft p{
-  width: 95%;
-  text-align: justify;
+  text-align: left;
   text-justify: inter-word;
+  line-height: 1.6;
 }
 
 .directions div,
@@ -63,6 +63,36 @@
   color: #ff450b;
 }
 
+.bunkerDescriptions {
+  margin: 0 6% 6% 6%;
+}
+
+.bunkerOwner {
+  margin: 0 6% 6% 6%;
+}
+
+.mapHeader {
+  margin: 0 6% 6% 6%;
+  padding: 6px 0;
+}
+
+.mapParent {
+  position: relative;
+  margin: 6%;
+}
+
+.mapInput {
+  margin: 2px auto 40px auto;
+  width: 95%;
+  font-size: 0.6rem;
+}
+
+.mapInput::placeholder {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .mapSubmit {
   position: absolute;
   font-family: 'Lato', sans-serif;
@@ -71,22 +101,6 @@
   font-weight: 400;
   font-size: 2rem;
   background: none;
-  top: 20px;
-  right: 10px;
-}
-
-h2 {
-  margin: 6%;
-}
-
-.mapParent {
-  position: relative;
-  margin: 6%;
-  
-
-}
-
-.mapInput {
-  margin: 20px auto 40px auto;
-  width: 95%;
+  top: 0px;
+  right: 0;
 }

@@ -1,6 +1,6 @@
 form{
     font-family: 'Lato', sans-serif;
-    color: #ffffff;   
+    color: #ffffff; 
 }
 
 .forms{
@@ -61,6 +61,7 @@ form label{
 /* names */
 .bunkerNames{
     text-align: center;
+    padding-bottom: 40px;  
 }
 
 .bunkerNames label{
@@ -94,13 +95,13 @@ input[type=radio]:checked + label{
     background: rgba(255,69,11, .73); 
  }
 
- input[type=radio] + label:hover{
+input[type=radio] + label:hover{
     background: rgba(255,69,11, .73); 
     opacity: 73%;
     transition: all .3s;
  }
 
- input[type=radio]:focus + label{
+input[type=radio]:focus + label{
   box-shadow: 0 0 11px #ff450b;
   background: none;
   border: 2px solid #ff450b;
@@ -110,6 +111,7 @@ p.listIntro {
     font-size: 0.9rem;
     text-align: left;
     font-weight: 400;
+    line-height: 1.6;
     width: 100%;
 }
 

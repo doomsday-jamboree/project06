@@ -1,7 +1,7 @@
 .lists li {
     list-style: none;
     color: #ffffff;
-    width: 95%;
+    width: 96%;
     padding: 0;
     margin: 0 auto;
     margin-bottom: 15px;
@@ -19,11 +19,17 @@
     clear: both;
     margin: 0px;
     padding: 5px;
-    font-size: 0.9rem;
 }
 
 .lists ul {
     padding: 0px;
+}
+
+.userListName {
+    opacity: 0.7;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .items {

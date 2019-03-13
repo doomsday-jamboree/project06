@@ -28,28 +28,28 @@ main {
 }
 
 .alex {
-  background: url('../src/assets/alex.jpg');
+  background: url('../src/assets/alex.jpg') bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
 .glen {
-  background: url('../src/assets/glen.jpg');
+  background: url('../src/assets/glen.jpg') bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
 .oiza {
-  background: url('../src/assets/oiza.jpg');
+  background: url('../src/assets/oiza.jpg') bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
 .zoe {
-  background: url('../src/assets/zoe.jpg');
+  background: url('../src/assets/zoe.jpg') bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -65,7 +65,7 @@ h1 {
   font-size: 4.5rem;
 }
 
-p{
+p {
   font-size:0.9rem;
 }
 

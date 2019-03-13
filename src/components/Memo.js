@@ -66,7 +66,7 @@ class Memo extends Component {
             return (
               <li key={items.key} className="clearfix">
                 {/* create a checkbox with attributes of id to match the labels id */}
-                <p>{items.userName}  {items.userName == this.props.userName.displayName ? <button className='deleteItem' name={items.key} onClick={this.handleClick}>x</button> : null}</p>
+                <p className='userListName'>{items.userName}  {items.userName == this.props.userName.displayName ? <button className='deleteItem' name={items.key} onClick={this.handleClick}>x</button> : null}</p>
                   {/* give button a name to target it without using an id and use that name to delete item later from firebase */}
                 <div className="items">
                   <p className="item">{items.textBox}</p>

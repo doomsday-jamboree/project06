@@ -88,25 +88,46 @@ class List extends Component {
           {this.state.list.map(items => {
             return (
               // the key is 'entry' from the for loop above
-              <li key={items.key} className="clearfix">
+              <li key={items.key} className='clearfix'>
                 {/* create a checkbox with attributes of id to match the labels id */}
-                <input type='checkbox' 
-                id={items.key} 
-                onChange={() => {this.updateCheck(items.key)}}
-                checked={items.isChecked} />
+                <input
+                  type='checkbox'
+                  id={items.key}
+                  onChange={() => {
+                    this.updateCheck(items.key);
+                  }}
+                  checked={items.isChecked}
+                />
 
-              {/*each item is pushed with a checked:false property.
-              create function */} 
+                {/*each item is pushed with a checked:false property.
+              create function */}
 
-                <p>{items.userName}  {items.userName == this.props.userName.displayName ? <button className='deleteItem' name={items.key} onClick={this.handleClick}>x</button> : null}</p>
+                <p className='userListName'>
+                  {items.userName}{' '}
+                  {items.userName ==
+                  this.props.userName.displayName ? (
+                    <button
+                      className='deleteItem'
+                      name={items.key}
+                      onClick={this.handleClick}
+                    >
+                      x
+                    </button>
+                  ) : null}
+                </p>
 
-                <div className="items">
-                  <label className="item listItem" htmlFor={items.key}>{items.textBox}</label>
+                <div className='items'>
+                  <label
+                    className='item listItem'
+                    htmlFor={items.key}
+                  >
+                    {items.textBox}
+                  </label>
                 </div>
                 {/* give button a name to target it without using an id and use that name to delete item later from firebase */}
                 {/* userName.displayName gets actual name inside of user object that was passed in through props onChange={this.updateCheck(items.key)}*/}
               </li>
-            )
+            );
           })}
         </ul>
       </section>
