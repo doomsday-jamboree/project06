@@ -40,7 +40,7 @@ class MapDirections extends Component {
       url: "http://www.mapquestapi.com/directions/v2/route",
       outFormat: "json",
       params: {
-        key: "T0v8EvAMROc0iDiMAoFFnblYHAdslHMH",
+        key: "jAuMBn6SemqglGEvttlGDZiDyMwOn7SL",
         outFormat: "json",
         unit: "k",
         from: this.state.userInput,
@@ -64,7 +64,7 @@ class MapDirections extends Component {
       url: 'https://www.mapquestapi.com/directions/v2/route',
       outFormat: 'json',
       params: {
-        key: 'T0v8EvAMROc0iDiMAoFFnblYHAdslHMH',
+        key: 'jAuMBn6SemqglGEvttlGDZiDyMwOn7SL',
         outFormat: 'json',
         unit: 'k',
         from: this.state.userInput,
@@ -156,7 +156,7 @@ class MapDirections extends Component {
                   this.state.userAddress
                   }&end=${
                   this.state.bunkerAddress
-                  }&key=T0v8EvAMROc0iDiMAoFFnblYHAdslHMH`}
+                  }&key=jAuMBn6SemqglGEvttlGDZiDyMwOn7SL`}
                 alt=''
               />
               <p>From: {this.state.userAddress}</p>

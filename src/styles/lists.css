@@ -18,7 +18,7 @@
     width: 100%;
     clear: both;
     margin: 0px;
-    padding: 5px;
+    padding: 5px 0px ;
     font-size: 0.9rem;
 }
 
@@ -44,6 +44,8 @@
     border: none;
     color: #ffffff;
     float: right;
+    margin: 0px;
+    padding: 2px;
 }
 
 .lists .listItem{
@@ -72,14 +74,14 @@
 .lists li label::after {
   content: '';
   display: inline-block;
-  height: 7px;
-  width: 10px;
+  height: 3px;
+  width: 7px;
   border-left: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
   transform: rotate(-45deg);
   position: absolute;
-  top:  7px;
-  left: 4px;
+  top: 11.5px;
+  left: 6px;
 }
 
 /*when input type checkbox is checked, li background  */

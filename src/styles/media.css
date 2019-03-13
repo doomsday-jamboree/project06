@@ -78,12 +78,12 @@
     font-size: 0.8rem;
   }
 
-  .lists li label::before{
+   .lists li label::before{
     top: 0px;
   }
-
+ 
   .lists li label::after {
-    top: 2.5px;
+    top: 6.5px;
   }
 }
 
@@ -109,14 +109,36 @@
     padding: 5% ;
     margin: 70px 0 0 0;
   }
+}
 
+@media(max-width: 550px){
+  /* bunkernames */
+  .bunkerNames label{
+    display: block;
+    width: 100%;
+    min-width: 100px;
+    margin: 1% 0; 
+  }
+
+  .bunkerNames label:nth-child(2){
+    margin: 125px 0 1% 0;
+  }
+
+  .bunkerNames label:nth-child(6){
+    margin-right: 0;
+  }
+
+  .bunkerNames label:nth-child(8){
+    margin-bottom: 5px;
+  }
+
+}
 @media (max-width: 400px) {
   /* h1 for login and main pages */
   h1 {
     font-size: 4rem;
     margin-bottom: 50px;
   }
-}
 
   button.loginButton{
     margin: 25px 0;
@@ -131,26 +153,4 @@
   }
 }
 
-
-@media(max-width: 550px){
-  /* bunkernames */
-  .bunkerNames label{
-    display: block;
-    width: 100%;
-    min-width: 100px;
-    margin: 1% 0; 
-  }
-
-  .bunkerNames label:nth-child(2){
-    margin: 40px 0 1% 0;
-  }
-
-  .bunkerNames label:nth-child(6){
-    margin-right: 0;
-  }
-
-  .bunkerNames label:nth-child(8){
-    margin-bottom: 40px;
-  }
-}
 
