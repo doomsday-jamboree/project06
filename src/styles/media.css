@@ -171,5 +171,10 @@
   .bunkerNames label:nth-child(8){
     margin-bottom: 40px;
   }
+
+  .left,
+  .right {
+    width: 100%;
+  }
 }
 
